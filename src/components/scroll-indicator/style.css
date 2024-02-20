@@ -1,0 +1,31 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    scroll-behavior: smooth;
+    
+}
+.data-container{
+    text-align: center;
+}
+.scroll-progress-tracking-container{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 5px;
+    background-image: linear-gradient(to left,rgba(0, 238, 255, 0.521),rgba(72, 255, 0, 0.726));
+    
+
+}
+.current-progress-bar{
+    position: sticky;
+    content: '';
+    background-image: linear-gradient(to right,red,blue);
+    height: 5px;
+    transition: all ease-in-out 0.7s;
+
+
+}

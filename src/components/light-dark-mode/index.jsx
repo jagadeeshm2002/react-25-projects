@@ -11,7 +11,7 @@ export default function LightDark() {
     }
   return (
     <div className="container" data-theme={theme}>
-        <h1 >{theme ==='dark'?'You are developer 😎': 'too bright! you are developer 🤧, why using light mode'}</h1>
+        <h1 >{theme ==='dark'?'You are developer 😎': `too bright! why using light mode , are you real developer🤧`}</h1>
         <button onClick={()=>handleToggleTheme()}>{theme ==="dark"?'Dark Mode':'Light Mode'}</button>
     </div>
   )

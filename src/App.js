@@ -1,5 +1,11 @@
 import './App.css';
-import LightDark from './components/light-dark-mode';
+import ModelTest from './components/custom-model/model-test';
+// import CustomTab from './components/customtab';
+
+
+// import ScrollIndicator from './components/scroll-indicator';
+
+// import LightDark from './components/light-dark-mode';
 // import QrCodeGen from './components/qrcodegen/index.jsx';
 // import menus from './components/navbar-treeview/data.js';
 
@@ -41,7 +47,17 @@ function App() {
         {/* <QrCodeGen/> */}
 
         {/* lightDarkMode switch */}
-        <LightDark/>
+        {/* <LightDark/> */}
+
+        {/* scroll indicator */}
+        {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=90"}/> */}
+
+
+        {/* CUSTOM tab component */}
+        {/* <CustomTab/> */}
+
+        {/* custom model  */}
+        <ModelTest/>
 
 
 

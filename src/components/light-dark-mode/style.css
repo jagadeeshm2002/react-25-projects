@@ -22,7 +22,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    transition: all 0.5s;
     
+
+}
+h1{
+    color:var(--text-primary);
+    transition: all 1s;
 
 }
 button{
@@ -31,5 +37,6 @@ button{
     border-radius: 10px;
     background-color: var(--button-bg);
     color: var(--btn-text);
+    transition: all 0.5s;
    
 }
