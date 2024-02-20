@@ -1,0 +1,35 @@
+:root{
+    --background:#ffffff;
+    --text-primary: #050505;
+    --button-bg:#151515;
+    --btn-text:#fff;
+}
+
+[data-theme='dark']{
+    --background:#050505;
+    --text-primary: #fff;
+    --button-bg:#fff;
+    --btn-text:#050505; 
+}
+
+
+.container{
+    background-color: var(--background);
+    color: var(--text-primary);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.644);
+    border-radius: 10px;
+    background-color: var(--button-bg);
+    color: var(--btn-text);
+   
+}

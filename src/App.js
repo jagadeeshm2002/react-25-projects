@@ -1,4 +1,5 @@
 import './App.css';
+import LightDark from './components/light-dark-mode';
 // import QrCodeGen from './components/qrcodegen/index.jsx';
 // import menus from './components/navbar-treeview/data.js';
 
@@ -38,6 +39,9 @@ function App() {
 
         {/* qr code generator */}
         {/* <QrCodeGen/> */}
+
+        {/* lightDarkMode switch */}
+        <LightDark/>
 
 
 
