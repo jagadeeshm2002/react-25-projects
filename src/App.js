@@ -1,5 +1,5 @@
 import './App.css';
-import QrCodeGen from './components/qrcodegen/index.jsx';
+// import QrCodeGen from './components/qrcodegen/index.jsx';
 // import menus from './components/navbar-treeview/data.js';
 
 // import NavMenu from './components/navbar-treeview/index.jsx';
@@ -37,7 +37,7 @@ function App() {
         {/* <NavMenu menus={menus} /> */}
 
         {/* qr code generator */}
-        <QrCodeGen/>
+        {/* <QrCodeGen/> */}
 
 
 
