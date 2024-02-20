@@ -1,0 +1,39 @@
+.menu-item-container div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    
+
+}
+.menu-item-container{
+    
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  
+
+   
+
+
+}
+.menu-item-container div span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tree-view-container{
+    background-color: rgba(79, 216, 216, 0.479);
+    height: 100vh;
+    width: 300px;
+    position: sticky;
+
+}
+.menu-list-container{
+    margin-top:0;
+    padding-inline-start: 0;
+    
+}

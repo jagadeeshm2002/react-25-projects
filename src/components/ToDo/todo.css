@@ -1,0 +1,54 @@
+.container{
+    max-width: 29rem;
+    overflow: hidden
+}
+.todo-input{
+    padding: 12px ;
+    border: none;
+
+}
+.todo-submit,.todo-btn-done{
+    padding: 12px 20px;
+    background-color: green;
+    border:none;
+    cursor: pointer;
+    transition: background-color 5ms,color 5ms;
+}
+.todo-submit:hover,.todo-btn-done:hover{
+    background-color: rgba(0, 128, 0, 0.719);
+}
+.todo-submit:active,.todo-btn-done:active{
+    background-color: rgb(23, 53, 23);
+    color: white;
+    
+}
+.todo-btn-del{
+    background-color: red;
+    border: none;
+    padding: 12px 26px;
+    transition: all 5ms;
+
+    
+    
+}
+.todo-btn-del:hover{
+    background-color: rgba(255, 0, 0, 0.555);
+    
+}
+.todo-btn-del:active{
+    background-color: rgb(97, 20, 20);
+    color: white;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+}
+ul li .text{
+    
+    word-wrap: break-word;
+
+}
