@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './style.css'
+import './randomcolor.css'
 
 export default function ColorGenerator() {
 	const[typeOfColor,setTypeOfColor]=useState('HEX');
@@ -39,9 +39,9 @@ export default function ColorGenerator() {
 
 
     return (
-        <div className="wrapper">
+        <div className="rdwrapper">
 
-            <div className="container">
+            <div className="rdcontainer random">
                 <div className="color" style={{backgroundColor: color}}>
                     <h1>Random Color Generater</h1>
                     <h2>{typeOfColor} color <br />

@@ -1,5 +1,7 @@
 import './App.css';
-import TicTocToe from './components/tic-toc-toe';
+import FeatureFlags from './components/feature-flag';
+import FeatureFlagGlobalState from './components/feature-flag/context';
+// import TicTocToe from './components/tic-toc-toe';
 // import SearchAutoComplete from './components/searchautocomplete';
 // import GithubProfileFinder from './components/githubusername';
 // import ModelTest from './components/custom-model/model-test';
@@ -65,14 +67,16 @@ function App() {
         {/* <GithubProfileFinder/> */}
 
         {/* <SearchAutoComplete/> */}
-
-        <TicTocToe/>
-
+ 
+        {/* <TicTocToe/> */}
+        {/* <FeatureFlagGlobalState>
+          <FeatureFlags/>
+        </FeatureFlagGlobalState> */}
 
 
       </div>
     </>
-  );
+  ); 
 }
 
 export default App;

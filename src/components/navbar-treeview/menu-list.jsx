@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from './menu-item.jsx';
-import "./style.css";
+import "./navbar.css";   
 
 export default function MenuList({ list = [] }) {
     return (

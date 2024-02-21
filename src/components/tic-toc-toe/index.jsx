@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './style.css'
+import './tictoctoe.css'
 
 export default function TicTocToe() {
   const [squares, setSquares] = useState(Array(9).fill(''));

@@ -1,12 +1,13 @@
-.wrapper{
+.rdwrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    margin: 100px 0;
+    
     width: 100vw;
-    height: 100vh;
+    
 }
-.container{
+.rdcontainer{
     width: 500px;
 
 }
@@ -26,12 +27,12 @@
 
     -webkit-text-stroke: 1px #e4e4e4;
 }
-button{
+.random button{
     padding: 5px 10px;
     margin: 5px;
     margin-top: 20px;
     border-radius: 15px;
     border: 2px solid rgba(217, 245, 58, 0.452);
-    background-image: radial-gradient(rgba(69, 187, 40, 0.26),rgba(207, 113, 113, 0.336));
+    background-image: linear-gradient(to right,rgb(255, 1, 1),rgb(8, 53, 255));
 
 }

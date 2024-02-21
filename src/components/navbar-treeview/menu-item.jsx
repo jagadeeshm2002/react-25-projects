@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MenuList from './menu-list';
-import "./style.css"; 
+import "./navbar.css";   
 
 export default function MenuItem({item}) {
     const[displayCurrentChildren,setDisplayCurrentChildren]=useState({})

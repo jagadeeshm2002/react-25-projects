@@ -25,7 +25,11 @@
      
 }
 
-.tic-tac-toe-container div{
-    
+.tic-tac-toe-container button {
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.644);
+    border-radius: 10px;
+    background-color: var(--button-bg);
+    color: var(--btn-text);
+    transition: all 0.5s;
 }
-

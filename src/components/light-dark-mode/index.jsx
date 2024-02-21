@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './style.css'
+import './lightdark.css'
 import useLocalStorage from './useLocalStorage';
 
 export default function LightDark() {
