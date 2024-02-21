@@ -1,0 +1,25 @@
+.search-autocomplete-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.filteredData{
+    list-style: none;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    
+}
+.filteredDataul{
+    border: 1px solid rgb(231, 231, 231);
+    padding-left: 0;
+    margin-top: 0;
+
+    
+}
+#searchbar_auto{
+    
+}

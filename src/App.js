@@ -1,5 +1,8 @@
 import './App.css';
-import ModelTest from './components/custom-model/model-test';
+import TicTocToe from './components/tic-toc-toe';
+// import SearchAutoComplete from './components/searchautocomplete';
+// import GithubProfileFinder from './components/githubusername';
+// import ModelTest from './components/custom-model/model-test';
 // import CustomTab from './components/customtab';
 
 
@@ -57,8 +60,13 @@ function App() {
         {/* <CustomTab/> */}
 
         {/* custom model  */}
-        <ModelTest/>
+        {/* <ModelTest/> */}
 
+        {/* <GithubProfileFinder/> */}
+
+        {/* <SearchAutoComplete/> */}
+
+        <TicTocToe/>
 
 
 
